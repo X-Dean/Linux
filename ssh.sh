@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [ $(id -u) = 0 ]; then
-   echo "Ky script duhet te ekzekutohet si user root, ju lutem perdorni "sudo"
+   echo "Ky script duhet te ekzekutohet si user root, ju lutem perdorni "sudo" "
    exit 1
 fi
 
